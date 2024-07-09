@@ -5,7 +5,7 @@ import { decreaseRequestCount, increaseRequestCount } from "../store/slice/loadi
 const axiosInstance = axios.create({
 
 
-	baseURL: "http://localhost:8070/api/v1/",
+	baseURL: "https://api.sehmuserol.com.tr/api/v1/",
 
 });
 
